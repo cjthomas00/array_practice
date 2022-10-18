@@ -4,8 +4,8 @@ monthly_bills = [550.47, 1536.76, 145.09, 202.98]
 assignments_passed = [true, false, true, true]
 
 #.unshift will fill the array with elements that begin at the front of the array.
-baby_names.unshift
-    puts ["Lyla", "Scarlett", "Olivia", "Blake"]
+baby_names.unshift()
+    puts [(), "Lyla", "Scarlett", "Olivia", "Blake"]
 
 #.pop will remove the last element of the array
 siblings_ages.pop
@@ -26,3 +26,9 @@ baby_names[3]
     puts "Blake"
 baby_names[0]
     puts "Lyla"
+
+#.first will return the first element of the array, or the first(n) elements of an array.
+monthly_bills.first
+    puts 550.47
+monthly_bills.first(2)
+    puts [550.47, 1536.76]
