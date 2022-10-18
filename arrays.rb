@@ -18,3 +18,11 @@ monthly_bills.shift
 #.length will tell how many elements are in an array.
 assignments_passed.length
     puts 4
+
+#Index positions is where an individual element of an array is.
+#Index positions start with the number 0. For example in baby_names there's 4 index positions (0-3).
+
+baby_names[3]
+    puts "Blake"
+baby_names[0]
+    puts "Lyla"
